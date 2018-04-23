@@ -28,3 +28,8 @@ i have used hsqldb, so you dont need to set database configuration
 - username should be at least 3 characters
 - email should be well formatted
 - password should be at least 7 characters and include uppercase,lowercase,special and numeric characters
+
+
+## Requirements
+- java 1.8
+- maven or junit to run tests
