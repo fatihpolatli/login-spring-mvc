@@ -28,6 +28,8 @@ public class RegistrationController {
 	@RequestMapping(value = "/user/registration", method = RequestMethod.POST)
 	public GenericResponse registerUserAccount(@ModelAttribute("user") @Valid UserDto accountDto, BindingResult result,
 			WebRequest request, Errors errors, HttpServletRequest req) {
+		
+		System.out.println("this is test");
 
 		User registered = new User();
 		if (!result.hasErrors()) {
